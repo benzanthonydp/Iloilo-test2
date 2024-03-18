@@ -1,0 +1,111 @@
+/*About Iloilo Images*/
+.upper-right-photo {
+    position: absolute;
+    top: 115px;
+    right: 20px;
+    width: 340px;
+}
+
+.contact-us-photo {
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    width: 550px;
+}
+
+.history-photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.map-2 {
+    position: absolute;
+    top: 1260px;
+    right: 20px;
+    width: 400px;
+}
+
+.map-3 {
+    position: absolute;
+    top: 1700px;
+    left: 20px;
+    width: 400px;
+}
+
+/* Additional CSS for Carousel */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+    /* Adjust as needed */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* Smooth transition */
+    transition-timing-function: ease-in-out;
+    /* Smooth timing function */
+}
+
+.carousel img {
+    width: 300px;
+    height: 250px;
+    padding-right: 10px;
+    flex-shrink: 0;
+    transition: transform 0.5s ease;
+    transition-timing-function: ease-in-out;
+}
+
+.carousel-item {
+    text-align: left;
+}
+
+.carousel-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.carousel-item a:hover {
+    text-decoration: underline;
+}
+
+.carousel-item h2 {
+    color: #0B898A;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+

@@ -1,0 +1,76 @@
+/* Styling the body */
+.container {
+    display: flex;
+    flex: 1;
+    /* Added to fill remaining space */
+    padding-bottom: 40px;
+}
+
+.custom-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #9A9C9D;
+}
+
+.leftbody {
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 130px;
+    background-color: #ffffff;
+    min-height: auto;
+    width: 78%;
+    position: relative;
+    flex: 1;
+}
+
+.leftbody h2 {
+    margin-top: 20px;
+    /* Adjust the margin top as needed */
+    color: #1DB6B6;
+    /* Change the color to #1DB6B6 */
+}
+
+.leftbody p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 350px;
+    /* Adjust the margin as needed */
+    font-size: 17px;
+}
+
+
+.leftbody .left-margin {
+    margin-top: 15px;
+    margin-bottom: 410px;
+    margin-right: 400px;
+    /* Adjust the margin as needed */
+    font-size: 17px;
+}
+
+.right-margin {
+    margin-left: 50%;
+    /* Adjust the left margin */
+    width: 50%;
+    /* Adjust the width */
+}
+
+.leftbody .no-margin {
+    margin-right: 0px;
+}
+
+.rightbody {
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 130px;
+    background-color: #ffffff;
+    height: 500px;
+    width: 22%;
+}
+
+
+.line {
+    border-bottom: 3px solid #0B898A;
+    margin-bottom: 1px;
+    /* Adjust margin as needed */
+}

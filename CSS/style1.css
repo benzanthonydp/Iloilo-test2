@@ -1,0 +1,151 @@
+/* CSS for styling */
+
+/* Resetting default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Setting default font */
+    background-color: #EEEEEE;
+    display: flex;
+    /* Using flexbox for layout */
+    flex-direction: column;
+    /* Arrange children in a column */
+    min-height: 100vh;
+    /* Ensure body stretches to at least the height of the viewport */
+    position: relative;
+    /* Added */
+}
+
+/* Styling the header */
+.header {
+    background-color: #1DB6B6;
+    /* Background color */
+    color: white;
+    /* Text color */
+    padding: 1px;
+    /* Spacing around content */
+    text-align: center;
+    /* Center-align text */
+    font-size: 22px;
+    /* Font size */
+    height: 425px;
+    /* Fixed height for the header */
+}
+
+.header-photo {
+    width: 1250px;
+    /* Adjust the width as needed */
+    height: 320px;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Make sure it behaves as a block element */
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+
+/* Styling the navigation bar */
+.navigation {
+    background-color: #1DB6B6;
+    /* Background color */
+    color: white;
+    /* Text color */
+    text-align: center;
+    /* Center-align text */
+    margin-bottom: 20px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    /* Removing bullet points from list */
+    padding: 0;
+    /* Removing default padding */
+    margin: 0;
+    /* Removing default margin */
+}
+
+.navigation ul li {
+    display: inline-block;
+    /* Displaying list items inline */
+    margin: 15 10px;
+    /* Spacing between list items */
+}
+
+.navigation ul li a {
+    display: inline-block;
+    width: 200px;
+    color: white;
+    /* Link color */
+    text-decoration: none;
+    /* Removing underline from links */
+    padding: 10px 10px;
+    /* Padding for the links */
+    border-radius: px;
+    /* Adding border radius for rounded corners */
+    font-weight: 600;
+    /* Semi-bold font weight */
+    transition: background-color 0.3s;
+}
+
+.navigation ul li a:hover {
+    background-color: #0B898A;
+    /* Change background color on hover */
+}
+
+/* Styling the body */
+.body {
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 130px;
+    /* Left margin */
+    margin-right: 130px;
+    /* Right margin */
+    background-color: #ffffff;
+    /* Background color */
+    min-height: 370vh;
+}
+
+
+/*Contact Us Area*/
+.form-field {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 570px;
+}
+
+textarea {
+    margin-left: 570px;
+    width: 53%;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    margin-left: 570px;
+    width: 53%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling the footer */
+.footer {
+    background-color: #1DB6B6;
+    /* Background color */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    /* Spacing around content */
+    text-align: center;
+    /* Center-align text */
+    font-size: 16px;
+    /* Font size */
+    margin-top: auto;
+    /* Push footer to bottom */
+    height: 300px;
+}
